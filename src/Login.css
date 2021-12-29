@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login {
+  display: flex;
+  width:100%;
+  height: 100vh;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #B5FF95;
+}
+
+.login_bg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.login_logo {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.login_container {
+  z-index: 3;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border-color: 1px solid lightgrey;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 3px 3px 0 dimgray;
+}
+
+.login_container > h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.login_container > form > h2 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.login_container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 70%;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 3px 3px 0 rgb(177, 177, 177);
+}
+
+.login_container > p {
+  font-size: 15px;
+}
+
+.login_signInButton {
+  background: #B5B0FF;
+  border-radius: 7px;
+  width: 71%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  border: 1px solid;
+  border-color: darkgray;
+  color: black;
+}
+
+.login_registerButton {
+  border-radius: 7px;
+  border: none;
+  width: 71%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  background: #B5B0FF;
+}
+
+.login_container > h1,
+form > input,
+h2,
+button,
+p {
+  position: relative;
+  left: 15%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
